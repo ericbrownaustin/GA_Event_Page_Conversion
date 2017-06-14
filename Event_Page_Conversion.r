@@ -5,7 +5,7 @@ library(dplyr)
 authorize()
 
 ##Enter your view ID here
-profile <- 82787986
+profile <- XXXXXXXX
 
 ##Enter you start and end date here
 start.date = "2016-07-01"
