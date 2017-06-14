@@ -12,9 +12,6 @@ start.date = "2016-07-01"
 end.date = "2016-07-01"
 
 ##RGA script
-gasessions <- get_ga(profile, start.date, end.date,
-                     metrics = "ga:sessions")
-
 gaevents <- get_ga(profile, start.date, end.date, 
              metrics = "ga:uniqueEvents",
              dimensions = "ga:eventCategory,ga:eventAction,ga:eventLabel,ga:pagePath")
